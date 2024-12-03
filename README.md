@@ -76,6 +76,19 @@ mindmap
 # Journey
 ```mermaid
 journey
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#BB2528',
+      'primaryTextColor': '#fff',
+      'primaryBorderColor': '#7C0000',
+      'lineColor': '#F8B229',
+      'secondaryColor': '#006100',
+      'tertiaryColor': '#fff'
+    }
+  }
+}%%
     title Путеводитель пользователя
     section Регистрация и вход
       style fill:#f9f,stroke:#333,stroke-width:4px;font-size:18px
