@@ -49,10 +49,10 @@ quadrantChart
     title Приоритизация задач информационной системы
     x-axis Low Risk --> High Risk
     y-axis Low Value --> High Value
-    quadrant-1 Быстрые победы
-    quadrant-2 Высокий приоритет
-    quadrant-3 Пересмотреть
-    quadrant-4 Избегать или упростить
+    quadrant-1 Quick Wins
+    quadrant-2 High Priority
+    quadrant-3 Re-evaluate
+    quadrant-4 Avoid or Simplify
     "Инициализация сессии": [0.3, 0.9]
     "Аутентификация пользователя": [0.4, 0.85]
     "Диагностика ПО": [0.7, 0.8]
