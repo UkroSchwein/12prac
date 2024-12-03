@@ -78,7 +78,7 @@ mindmap
 journey
     title Путеводитель пользователя
     section Регистрация и вход
-      style Открывает приложение fill:#f9f,stroke:#333,stroke-width:4px;font-size:18px
+      style fill:#f9f,stroke:#333,stroke-width:4px;font-size:18px
       Открывает приложение: 5: Пользователь
       Регистрируется в системе: 4: Система
       Подтверждает регистрацию через email: 4: Пользователь
