@@ -76,7 +76,7 @@ mindmap
 # Journey
 ```mermaid
 journey
-    title Путеводитель пользователя по информационной системе
+    title Путеводитель пользователя
     section Регистрация и вход
       Действие: Пользователь открывает приложение: 5: Пользователь
       Действие: Пользователь регистрируется в системе: 4: Система
@@ -122,7 +122,7 @@ journey
 # Quadrant Chart
 ```mermaid
 quadrantChart
-    title Приоритизация задач информационной системы
+    title Приоритизация задач
     x-axis Low Risk --> High Risk
     y-axis Low Value --> High Value
     quadrant-1 Quick Wins
