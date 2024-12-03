@@ -22,7 +22,6 @@ mindmap
 ```
 
 
-
 ```mermaid
 journey
   title Путешествие пользователя в системе
