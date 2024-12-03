@@ -21,7 +21,7 @@ mindmap
       Управление доступом
 ```
 
-
+# Journey
 ```mermaid
 journey
   title Путешествие пользователя в системе
@@ -43,7 +43,7 @@ journey
 ```
 
 
-
+# QuadrantChart
 ```mermaid
 quadrantChart
     title Приоритизация задач информационной системы
@@ -64,7 +64,7 @@ quadrantChart
 ```
 
 
-
+# GitGraph
 ```mermaid
   gitGraph
   commit id: "Начало проекта"
