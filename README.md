@@ -47,7 +47,7 @@ journey
 ```mermaid
 quadrantChart
     title Приоритизация задач информационной системы
-    x-axis Низкий риск --> Высокий риск
+    x-axis LowR isk --> High Risk
     y-axis Низкая ценность --> Высокая ценность
     quadrant-1 Быстрые победы
     quadrant-2 Высокий приоритет
