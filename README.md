@@ -21,6 +21,8 @@ mindmap
       Управление доступом
 ```
 
+
+
 ```mermaid
 journey
   title Путешествие пользователя в системе
@@ -39,4 +41,43 @@ journey
   section Обратная связь
     Пользователь: Получение уведомления: 4: Быстро
     Пользователь: Подтверждение завершения: 5: Удобно
+```
+
+
+
+```mermaid
+quadrantChart
+  title Приоритет задач
+  x-axis Сложность
+  y-axis Важность
+  "Высокий приоритет, низкая сложность" [1, 4]: Инициализация сессии
+  "Высокий приоритет, высокая сложность" [3, 4]: Диагностика
+  "Низкий приоритет, низкая сложность" [1, 1]: Уведомления
+  "Низкий приоритет, высокая сложность" [3, 1]: Исправление ошибок
+```
+
+
+
+```mermaid
+  gitGraph
+  commit id: "Начало проекта"
+  branch feature/authentication
+  commit id: "Добавление аутентификации"
+  checkout main
+  merge feature/authentication
+
+  branch feature/diagnosis
+  commit id: "Добавление диагностики"
+  checkout main
+  merge feature/diagnosis
+
+  branch feature/reporting
+  commit id: "Добавление генерации отчетов"
+  checkout main
+  merge feature/reporting
+
+  branch feature/notifications
+  commit id: "Добавление уведомлений"
+  checkout main
+  merge feature/notifications
 ```
