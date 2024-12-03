@@ -105,25 +105,16 @@ gitGraph
   checkout main
   merge feature/expert-evaluation tag: "v1.4"
   
-  branch bugfix/authentication-issues
-  commit id: "Исправление ошибок аутентификации пользователей"
-  commit id: "Оптимизация процесса логина"
+  branch feature/error-fixing
+  commit id: "Реализация функционала исправления ошибок после диагностики ПО"
+  commit id: "Добавление алгоритма исправления программных ошибок"
+  commit id: "Интеграция исправлений в систему"
+  commit id: "Оптимизация процесса исправления ошибок"
   checkout main
-  merge bugfix/authentication-issues tag: "v1.1.1"
-  
-  branch bugfix/diagnosis-issues
-  commit id: "Исправление ошибок диагностики ПО"
-  commit id: "Оптимизация работы диагностики аппаратной части"
-  checkout main
-  merge bugfix/diagnosis-issues tag: "v1.1.2"
-  
-  branch bugfix/notifications-issues
-  commit id: "Исправление проблем с уведомлениями"
-  commit id: "Оптимизация отправки push-уведомлений"
-  checkout main
-  merge bugfix/notifications-issues tag: "v1.3.1"
+  merge feature/error-fixing tag: "v1.5"
   
   commit id: "Тестирование и финальная оптимизация"
-  commit id: "Релиз версии v1.5"
+  commit id: "Релиз версии v1.6"
+
 
 ```
