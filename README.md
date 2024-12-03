@@ -43,7 +43,7 @@ journey
 ```
 
 
-# QuadrantChart
+# Quadrant Chart
 ```mermaid
 quadrantChart
     title Приоритизация задач информационной системы
@@ -64,7 +64,7 @@ quadrantChart
 ```
 
 
-# GitGraph
+# Git Graph
 ```mermaid
 gitGraph
   commit id: "Начало проекта: структура и планирование"
