@@ -110,25 +110,64 @@ gitGraph
 
 # GitGraph
 ```mermaid
-  gitGraph
-  commit id: "Начало проекта"
+gitGraph
+  commit id: "Начало проекта: структура и планирование"
+  
   branch feature/authentication
-  commit id: "Добавление аутентификации"
+  commit id: "Создание базовой структуры аутентификации"
+  commit id: "Интеграция с внешним сервисом аутентификации"
+  commit id: "Реализация UI для логина"
   checkout main
-  merge feature/authentication
-
+  merge feature/authentication tag: "v1.0"
+  
   branch feature/diagnosis
-  commit id: "Добавление диагностики"
+  commit id: "Добавление базового функционала диагностики"
+  commit id: "Реализация диагностики ПО"
+  commit id: "Добавление диагностики аппаратной части"
+  commit id: "Интеграция с базой знаний"
   checkout main
-  merge feature/diagnosis
-
+  merge feature/diagnosis tag: "v1.1"
+  
   branch feature/reporting
-  commit id: "Добавление генерации отчетов"
+  commit id: "Создание шаблонов отчетов"
+  commit id: "Реализация экспорта отчетов в PDF"
+  commit id: "Добавление возможности сохранения отчетов в базу данных"
   checkout main
-  merge feature/reporting
-
+  merge feature/reporting tag: "v1.2"
+  
   branch feature/notifications
-  commit id: "Добавление уведомлений"
+  commit id: "Добавление базовой системы уведомлений"
+  commit id: "Интеграция с системой email-уведомлений"
+  commit id: "Реализация push-уведомлений"
   checkout main
-  merge feature/notifications
+  merge feature/notifications tag: "v1.3"
+  
+  branch feature/expert-evaluation
+  commit id: "Создание интерфейса для экспертов"
+  commit id: "Реализация механизма оценки отчетов"
+  commit id: "Интеграция оценок в процесс диагностики"
+  checkout main
+  merge feature/expert-evaluation tag: "v1.4"
+  
+  branch bugfix/authentication-issues
+  commit id: "Исправление ошибок аутентификации пользователей"
+  commit id: "Оптимизация процесса логина"
+  checkout main
+  merge bugfix/authentication-issues tag: "v1.1.1"
+  
+  branch bugfix/diagnosis-issues
+  commit id: "Исправление ошибок диагностики ПО"
+  commit id: "Оптимизация работы диагностики аппаратной части"
+  checkout main
+  merge bugfix/diagnosis-issues tag: "v1.1.2"
+  
+  branch bugfix/notifications-issues
+  commit id: "Исправление проблем с уведомлениями"
+  commit id: "Оптимизация отправки push-уведомлений"
+  checkout main
+  merge bugfix/notifications-issues tag: "v1.3.1"
+  
+  commit id: "Тестирование и финальная оптимизация"
+  commit id: "Релиз версии v1.5"
+
 ```
